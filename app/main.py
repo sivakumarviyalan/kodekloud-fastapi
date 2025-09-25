@@ -5,7 +5,7 @@ from .routers import post, user, auth, vote
 from fastapi.middleware.cors import CORSMiddleware
 
 
-SQLModel.metadata.create_all(engine)
+#SQLModel.metadata.create_all(engine)
 
 app = FastAPI()
 
